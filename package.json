@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "author": {"email": "enzo.carpentier.pro@gmail.com", "name": "EnzoPoint"},
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.5.4"
+  }
+}
