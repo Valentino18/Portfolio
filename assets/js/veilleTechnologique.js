@@ -16,7 +16,7 @@ const client = new httpClient();
 
 /// Veille Javascript
 // https://api.codetabs.com/v1/proxy?quest=https://www.toptal.com/developers/feed2json/convert?url=https%3A%2F%2Fmedium.com%2Ffeed%2Ftag%2Fjavascript
-client.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Ftag%2Fhtml&api_key=cdqisvwwa6ehq5ora6xm0axkuwpodvdjug9fxi83&order_by=pubDate&count=6', function(response) {
+client.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Ftag%2Fdata-science&api_key=cdqisvwwa6ehq5ora6xm0axkuwpodvdjug9fxi83&order_by=pubDate&count=6', function(response) {
     let feed = JSON.parse(response);
     let detailSimple; 
     let limite = 0;
